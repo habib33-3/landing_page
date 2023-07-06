@@ -69,7 +69,7 @@
   color: rgb(170, 25, 214);
 }
 
-.about-title{
+.about-title {
   text-align: center;
   padding: 20px;
 }
@@ -81,14 +81,53 @@
   padding: 20px;
 }
 
-h2{
+h2 {
   padding: 20px;
 }
 
-.about-text .btn{
+.about-text .btn {
   margin-top: 15px;
+  margin-left: 20px;
 }
-.info{
-  font-size:  20px;
-  margin: 12px;
+
+.info {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(images/background.png),
+    linear-gradient(45deg, rgb(26, 24, 24), rgb(51, 34, 34));
+}
+
+.box {
+  width: 230px;
+  height: 280px;
+  box-shadow: 4px 4px 15px gray;
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  
+  margin: 15px;
+}
+
+.icon {
+  width: 70px;
+}
+
+.box-btn {
+  background-color: grey;
+  margin-top: 10px;
+}
+
+.box-title {
+  padding: 10px;
+}
+
+.box-description {
+  padding: 5px;
 }
